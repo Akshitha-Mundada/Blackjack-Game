@@ -22,6 +22,7 @@ function getRandomCard() {
 
 function startGame() { 
     isAlive = true;
+    hasBlackjack = false;
     cards = [getRandomCard(), getRandomCard()];
     sum = cards[0] + cards[1];
     newGame.textContent = "NEW GAME";
